@@ -6,7 +6,8 @@ function UploadButton ({setUpload}) {
     
 
     function handleChange(event) {
-        setUpload(event.target.files[0]);
+        setUpload(URL.createObjectURL(event.target.files[0]));
+        console.log(event.target.files);
     }
     
     return (
