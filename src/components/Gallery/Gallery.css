@@ -2,12 +2,22 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 .gallery-entry {
-    height: 200px;
-    width: 200px;
+    height: 35vh;
+    width: 27vw;
+    margin: 2.5vh 0 
 }
 .gallery-image {
-    height: 150px;
-    width: 150px;
+    height: 34vh;
+    width: 26vw;
+}
+.upload-button-container {
+    z-index: 1;
+    position: relative;
+    border: 1px solid cyan;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
