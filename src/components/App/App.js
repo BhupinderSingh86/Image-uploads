@@ -1,10 +1,9 @@
-import Profile from "../Profile/Profile";
-
+import Banner from "../Banner/Banner";
 
 function App() {
   return (
-    <div>
-      <Profile/>
+    <div className="Main">
+      <Banner />
     </div>
   );
 }

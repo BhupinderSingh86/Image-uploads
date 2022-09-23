@@ -1,0 +1,12 @@
+.Banner {
+  border: 3px solid yellowgreen;
+  width: 100vw;
+  height: 30vh;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.Upload-banner {
+  /* right: 10px; */
+}
