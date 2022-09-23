@@ -6,6 +6,8 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  object-fit: fill;
+background-repeat: no-repeat;
 }
 .Upload-banner {
   /* right: 10px; */

@@ -4,7 +4,7 @@ import UploadButton from "../UploadButton/UploadButton";
 
 function Profile() {
   const [upload, setUpload] = useState(
-    "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png"
+    "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZmlsZXxlbnwwfHwwfHw%3D&w=1000&q=80"
   );
 
   const name = "name";
